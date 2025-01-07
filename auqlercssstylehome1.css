@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 980px; /* Taille fixe */
+    width: 980px; 
     margin-bottom: 40px;
     
 }
@@ -121,8 +121,8 @@ font-size: 16px;
 color: #000000;
 margin-left: -686px;
 white-space: nowrap;
-position: relative; /* Nécessaire pour le positionnement relatif */
-top: 27px; /* Positionne "about me" à 10px du centre de la ligne */
+position: relative; 
+top: 27px; 
 font-weight: bold;
 
 
@@ -134,7 +134,7 @@ h1.wow {
 
 .title-container {
 display: flex;
-align-items: center; /* Aligne "auqler" et "about me" verticalement */
+align-items: center; 
 width: 980px;
 }
 .fade-in {
@@ -148,14 +148,14 @@ width: 980px;
     transform: translateY(0);
 }
 
-/* Effet de grossissement au survol */
+
 .description:hover, .projects:hover {
-    transform: scale(1.008); /* Ajustez le facteur d'agrandissement si nécessaire */
+    transform: scale(1.008); 
 }
 
-/* Ajoutez le comportement combiné */
+
 .description, .projects {
-    transition: transform 0.3s ease, opacity 0.6s ease-out, transform 0.9s ease-out; /* Combine les transitions */
+    transition: transform 0.3s ease, opacity 0.6s ease-out, transform 0.9s ease-out; 
 }
 .popup {
     position: fixed;

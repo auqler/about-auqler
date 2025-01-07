@@ -42,7 +42,7 @@ body {
     margin-top: 0;
     opacity: 0;
     transition: all 0.7s ease;
-    overflow-y: auto; /* Activer le défilement vertical */
+    overflow-y: auto; 
 }
 
 .pythonpy1 {
@@ -97,7 +97,7 @@ body {
 }
 
 .icon-block img {
-    width: 52px;   /* Même taille que l'image HTML/CSS */
+    width: 52px;   
     height: 52px;
 }
 
@@ -107,8 +107,8 @@ body {
     background-color: #ffffff;
     padding: 10px;
     border-radius: 16px;
-    height: 56px;  /* Même hauteur que l'icône HTML/CSS */
-    width: 56px;   /* Même largeur que l'icône HTML/CSS */
+    height: 56px;  
+    width: 56px;   
     justify-content: center;
     transition: transform 0.3s ease;
     margin-left: auto;
@@ -168,15 +168,15 @@ body {
 .after {
 font-size: 2px;
 color: #000000;
-text-align: center; /* Centre le texte dans .after */
+text-align: center; 
 }
 
 .credits-container {
-width: 100%; /* Alignement avec .big-container */
+width: 100%; 
 display: flex;
 flex-direction: column;
-align-items: center; /* Centre horizontalement les éléments */
-margin-top: 20px; /* Espacement avec le contenu précédent */
+align-items: center; 
+margin-top: 20px; 
 }
 
 .extra-text2 {
@@ -193,7 +193,7 @@ margin-top: 20px; /* Espacement avec le contenu précédent */
 h1.wow {
 color: rgb(255, 255, 255);
 text-align: center;
-margin: 10px 0; /* Espacement entre les crédits et le titre */
+margin: 10px 0; 
 }
 
 .title-container {
@@ -207,29 +207,29 @@ margin: 10px 0; /* Espacement entre les crédits et le titre */
 }
 
 .title {
-flex-shrink: 0; /* Empêche le rétrécissement automatique */
+flex-shrink: 0; 
 }
 
 .extra-text2 {
-margin-left: -686px; /* Replace correctement "Python projects" à droite */
+margin-left: -686px; 
 }
 
 .icon-block {
-margin-left: auto; /* Ajoute de l'espace entre l'icône et "Python projects" */
+margin-left: auto; 
 }
 
 .webhook-text {
 text-decoration: underline;
-color: #00a2ff; /* Bleu clair */
+color: #00a2ff; 
 }
 
 .webhook-text a {
-color: inherit; /* Utilise la couleur définie dans `.webhook-text` */
-text-decoration: inherit; /* Utilise le soulignement de `.webhook-text` */
+color: inherit; 
+text-decoration: inherit; 
 }
 
 .webhook-text a:hover {
-color: #0078bf; /* Change la couleur au survol */
+color: #0078bf; 
 }
 .popup {
     position: fixed;
