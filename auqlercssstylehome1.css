@@ -1,0 +1,186 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.big-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 980px; /* Taille fixe */
+    margin-bottom: 40px;
+    
+}
+
+.title {
+    font-size: 96px;
+    font-weight: bold;
+    margin: 0;
+    color: #000000;
+    text-align: left;
+    width: 100%;
+    
+}
+
+.description {
+    font-size: 28px;
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    background-color: #efefef;
+    color: #000000;
+    border-radius: 16px;
+    text-align: left;
+    padding: 16px;
+    box-sizing: border-box;
+    transition: transform 0.7s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.projects {
+    font-size: 28px;
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    color: #000000;
+    border-radius: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    transition: transform 0.7s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.icon-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon img   {
+    width: 72px;
+    height: 72px;
+}
+.iconhtmlcss img {
+    width: 110px;
+    height: 110px;
+}
+
+.icon:hover, .iconhtmlcss:hover, .iconx64dbg:hover {
+    transform: scale(1.2);
+}
+
+.icon, .iconhtmlcss, .iconx64dbg {
+    margin: 0;
+    font-size: 32px;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+.iconx64dbg img   {
+    width: 62px;
+    height: 62px;
+}
+
+.after {
+    font-size: 2px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projects .extra-text1 {
+    font-size: 16px;
+    color: #efefef;
+    margin-left: 10px;
+}
+.extra-text2 {
+font-size: 16px;
+color: #000000;
+margin-left: -686px;
+white-space: nowrap;
+position: relative; /* Nécessaire pour le positionnement relatif */
+top: 27px; /* Positionne "about me" à 10px du centre de la ligne */
+font-weight: bold;
+
+
+}
+
+h1.wow {
+    color: rgb(255, 255, 255);
+}
+
+.title-container {
+display: flex;
+align-items: center; /* Aligne "auqler" et "about me" verticalement */
+width: 980px;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Effet de grossissement au survol */
+.description:hover, .projects:hover {
+    transform: scale(1.008); /* Ajustez le facteur d'agrandissement si nécessaire */
+}
+
+/* Ajoutez le comportement combiné */
+.description, .projects {
+    transition: transform 0.3s ease, opacity 0.6s ease-out, transform 0.9s ease-out; /* Combine les transitions */
+}
+.popup {
+    position: fixed;
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 1000;
+}
+
+.icon, .iconhtmlcss, .iconx64dbg {
+    position: relative;
+    margin: 0;
+    font-size: 32px;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}

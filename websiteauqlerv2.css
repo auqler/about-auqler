@@ -1,0 +1,16 @@
+h1
+{
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+body
+{
+    background-color: #FFFFFF;
+}
+
+ul li
+{
+    list-style-type: none;
+}
