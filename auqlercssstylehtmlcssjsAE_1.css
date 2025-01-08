@@ -1,3 +1,5 @@
+/*auqler*/
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -65,14 +67,6 @@ body {
     overflow: hidden;
 }
 
-.icon-container {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-top: 20px;
-}
-
-
 .pythonpy1 .top-content {
     display: flex;
     width: 100%;
@@ -137,9 +131,11 @@ body {
     padding-bottom: 25px;
 }
 
-.iconx64dbg img   {
-    width: 72px;
-    height: 72px;
+.icon-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;  
 }
 
 .iconhtmlcss, .iconx64dbg {
@@ -157,11 +153,16 @@ body {
 }
 
 .iconhtmlcss img {
-    width: 105px;
-    height: 105px;
+    width: 72px;
+    height: 72px;
 }
 
-.iconhtmlcss:hover, .iconx64dbg:hover{
+.iconx64dbg img {
+    width: 72px;
+    height: 72px;
+}
+
+.iconhtmlcss:hover, .iconx64dbg:hover {
     transform: scale(1.2);
 }
 

@@ -1,9 +1,11 @@
+/*auqler*/
+
 document.addEventListener("DOMContentLoaded", function () {
     var userAgent = navigator.userAgent.toLowerCase();
     var desktopDevices = /windows nt|macintosh|macos|linux x86_64|x11|ubuntu|fedora|debian|mint|red hat|suse|chrome os|freebsd|openbsd|netbsd|dragonfly/;
 
     if (!desktopDevices.test(userAgent)) {
-        window.location.href = "auqlerunavailable.html";
+        window.location.href = "auqlerunavailableAE_1.html";
     }
 });
 document.addEventListener('DOMContentLoaded', function() {
@@ -12,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.appendChild(popup);
 
     const iconNames = {
-        'iconhtmlcss': 'See python projects',
+        'iconhtmlcss': 'See HTML, CSS and JS projects',
         'iconx64dbg': 'See x64dbg projects'
     };
 
